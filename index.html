@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h3>Add Image / Icon</h3>
+    </header>
+
+    <main class="main">
+        <div class="wrapper">
+            <h3>Upload Image</h3>
+            <input type="file" id="file" class="input-file">
+            <label for="file" class="label">Choose From Device</label>
+        </div>
+        <div class="frame">
+        </div>
+    </main>
+
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <span class="close-modal">X</span>
+            </div>
+            <h3 class="modal-title">Uploaded Image</h3>
+            <div class="uploaded-image">
+
+            </div>
+            <div class="frames-container">
+                <div class="framesItem" data-name="original">
+                    <p>Original</p>
+                </div>
+                <div class="framesItem" data-name="heart">
+                    <img src="./assets/user_image_frame_1.png" alt="">
+                </div>
+                <div class="framesItem" data-name="square">
+                    <img src="./assets/user_image_frame_2.png" alt="">
+                </div>
+                <div class="framesItem" data-name="circle">
+                    <img src="./assets/user_image_frame_3.png" alt="">
+                </div>
+                <div class="framesItem" data-name="rectangular">
+                    <img src="./assets/user_image_frame_4.png" alt="">
+                </div>
+            </div>
+            <button class="modal-btn">Use This Image</button>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
